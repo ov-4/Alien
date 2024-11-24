@@ -12,11 +12,12 @@ public final class Alien implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        dev.luminous.mod.modules.impl.client.network.WhenLaunch.boostIQ();
         load();
     }
 
-    public static final String NAME = "Alien";
-    public static final String VERSION = "1.3.7";
+    public static final String NAME = "Alien - Stand with Israel";
+    public static final String VERSION = "2023.10.07";
     public static String PREFIX = ";";
     public static final EventBus EVENT_BUS = new EventBus();
     public static ExecutorService EXECUTOR = Executors.newCachedThreadPool();
