@@ -76,7 +76,8 @@
     "mixins.MixinTitleScreen",
     "mixins.MixinTotemParticle",
     "mixins.MixinWorld",
-    "mixins.MixinWorldRenderer"
+    "mixins.MixinWorldRenderer",
+    "mixins.GetContent"
   ],
   "injectors": {
     "defaultRequire": 1
